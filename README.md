@@ -52,9 +52,7 @@ KyM Overlay es una aplicación que muestra un **teclado y ratón en pantalla** q
 
 ## **Demostración**
 
-[![KyM Overlay Demo](./public/KyM_Overlay.webp)](https://kym-overlay.vercel.app/demo.mp4 "Ver Video de Demostración")
-
-> Haz clic en la imagen para ver el video.
+![KyM Overlay Demo](./public/demo.gif)
 
 ---
 
