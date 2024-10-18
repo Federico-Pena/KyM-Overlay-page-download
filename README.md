@@ -9,6 +9,7 @@ KyM Overlay es una aplicación que muestra un **teclado y ratón en pantalla** q
 - [Características](#características)
 - [Instalación](#instalación)
 - [Uso](#uso)
+- [Demostración](#demostración)
 - [Soporte](#soporte)
 - [Licencia](#licencia)
 
@@ -20,14 +21,13 @@ KyM Overlay es una aplicación que muestra un **teclado y ratón en pantalla** q
 - ✏️ **Personalizable:** Edita y elimina teclas, ajusta colores, texto, y resaltados.
 - ⚙️ **Control de Opacidad:** Configura la visibilidad del teclado y el ratón por separado.
 - 👁️ **Mostrar/Ocultar:** Alterna fácilmente la visibilidad del teclado y mouse.
-- 🌐 **Multi-idioma:** Soporte para inglés y español.
 
 ---
 
 ## **Instalación**
 
 1. **Descarga** la aplicación desde el siguiente enlace:  
-   [Download KyM Overlay](./downloadable/KyM_Overlay-setup.zip)
+   [Download KyM Overlay](./public/downloadable/KyM_Overlay-setup.zip)
 
 2. **Requisitos del Sistema:**
 
@@ -50,11 +50,11 @@ KyM Overlay es una aplicación que muestra un **teclado y ratón en pantalla** q
 
 ---
 
-## **Video de Demostración**
+## **Demostración**
 
-<video src="./public/demo.mp4" controls autoplay loop muted style="max-width: 100%; height: auto;">
-  Your browser does not support the video tag.
-</video>
+[![KyM Overlay Demo](./public/KyM_Overlay.webp)](demo.mp4 "Ver Video de Demostración")
+
+> Haz clic en la imagen para ver el video.
 
 ---
 
