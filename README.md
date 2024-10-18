@@ -1,50 +1,63 @@
-# React + TypeScript + Vite
+# **KyM Overlay: Keyboard & Mouse Visualizer**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+KyM Overlay es una aplicación que muestra un **teclado y ratón en pantalla** que resalta visualmente las interacciones del usuario, ideal para **creadores de contenido, streamers o instructores**. Personaliza el aspecto, comportamiento y visibilidad del teclado y mouse según tus necesidades.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## **Tabla de Contenidos**
 
-## Expanding the ESLint configuration
+- [Características](#características)
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Soporte](#soporte)
+- [Licencia](#licencia)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## **Características**
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- 🎯 **Resaltado de Entradas:** Visualiza los clics y las teclas presionadas en tiempo real.
+- ✏️ **Personalizable:** Edita y elimina teclas, ajusta colores, texto, y resaltados.
+- ⚙️ **Control de Opacidad:** Configura la visibilidad del teclado y el ratón por separado.
+- 👁️ **Mostrar/Ocultar:** Alterna fácilmente la visibilidad del teclado y mouse.
+- 🌐 **Multi-idioma:** Soporte para inglés y español.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+---
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## **Instalación**
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+1. **Descarga** la aplicación desde el siguiente enlace:  
+   [Download KyM Overlay](./downloadable/KyM_Overlay-setup.zip)
+
+2. **Requisitos del Sistema:**
+
+   - Sistema operativo: Windows 64-bit.
+
+3. **Instrucciones de Instalación:**
+   - Descomprime el archivo `.zip`.
+   - Ejecuta el instalador `KyM_Overlay-setup.exe` y sigue las instrucciones.
+
+---
+
+## **Uso**
+
+1. **Inicia la aplicación** desde el acceso directo generado.
+2. Ajusta las opciones de teclado y ratón desde el menú de configuración:
+   - **Modificar teclas y colores.**
+   - **Activar/Desactivar resaltados.**
+   - **Controlar la opacidad del overlay.**
+3. Cambia entre **teclado y ratón visible/invisible** según lo necesites.
+
+---
+
+## **Video de Demostración**
+
+<video src="./public/demo.mp4" controls autoplay loop muted style="max-width: 100%; height: auto;">
+  Your browser does not support the video tag.
+</video>
+
+---
+
+## **Soporte**
+
+Si tienes alguna pregunta o necesitas ayuda, no dudes en contactar. federpena22@gmail.com
