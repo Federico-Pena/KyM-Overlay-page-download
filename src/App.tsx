@@ -29,7 +29,7 @@ function App() {
 
         <h1>{t.title}</h1>
         <a
-          href="downloadable/KyM_Overlay-setup.zip"
+          href="downloadable/KyM_Overlay-1.0.0-setup.zip"
           download
           className="download-button"
           aria-label={t.download}
@@ -40,14 +40,8 @@ function App() {
       </header>
 
       <section>
-        <video
-          src="demo.mp4"
-          autoPlay
-          loop
-          muted
-          className="hero-video"
-        ></video>
-
+        <img title="KyM Overlay" className="hero-image" src="demo.gif" alt="Gif de teclado y ratón en pantalla que resalta visualmente las interacciones del usuario" />
+     
         <h2>{t.featuresTitle}</h2>
         <ul>
           {t.features.map((feature, index) => (
