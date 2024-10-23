@@ -29,7 +29,7 @@ function App() {
 
         <h1>{t.title}</h1>
         <a
-          href="downloadable/KyM_Overlay-1.0.0-setup.exe"
+          href="downloadable/KyM Overlay-1.0.0-setup.exe"
           download
           className="download-button"
           aria-label={t.download}
